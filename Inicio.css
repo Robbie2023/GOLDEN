@@ -6,13 +6,13 @@
 
 body {
   color: black;
-  font-family: 'fantasy';
+  font-family:'Roboto', sans-serif;
   background: #F5F5F5;
 }
 
 header {
   color: white;
-  background: url('encabezado.jpg');
+  background: url('https://static.vecteezy.com/system/resources/previews/001/009/645/non_2x/banner-with-angled-red-overlaid-strips-vector.jpg');
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,10 +55,12 @@ section h1 {
   margin: 10;
   margin-top: 100px;
   border-radius: 4px;
-  font-family: 'fantasy';
+  font-family: 'Roboto', sans-serif;
   color: white;
   box-shadow: 5px 5px 5px #000;
   text-align: center;
+    text-decoration: none;
+
 }
 
 select {
@@ -70,8 +72,7 @@ select {
   margin: 10;
   border-radius: 4px;
   margin-top: 10px;
-  font-family: 'fantasy';
-  outline: 0;
+font-family: 'Roboto', sans-serif;  outline: 0;
   color: white;
   border: 0px solid crimson;
   padding: 15px;
