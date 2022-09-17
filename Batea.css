@@ -1,89 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-
-body {
-    text-align: center;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .head {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 63px;
-    background: #FF0000;//fondo del ivan
+    height: 90px;
+    background: url('https://static.vecteezy.com/system/resources/previews/001/009/645/non_2x/banner-with-angled-red-overlaid-strips-vector.jpg');
     position: fixed;
     width: 100%;
     z-index: 100;
 }
 
-.navbar {
-    display: flex;
-    margin-right: 10px;
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  background: #F5F5F5;
 }
 
 .logo {
     margin-left: 30px;
 }
 
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
+header {
+  height: 90px;
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://www.tresovejas.com.ar/im/tres-ovejas-menu.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-.navbar a {
-    display: block;
-    padding: 20px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
+.botones {
+  display: flex;
+  margin-right: 10px;
 }
-
-.navbar a:hover {
-    background: #3f3f3f;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header {
-    height: 60vh !important;
-    background: url(img/header.jpg) no-repeat center;
-    background-size: cover;
-}
-
-.title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-p {
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #000000;
-    padding: 0 100px;
-}
-
 .btn {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0; 
+    border: 2px solid #9c27b0;
     color: #fff;
     text-decoration: none;
     background: #FF0000;//fondo del ivan
@@ -91,7 +56,7 @@ p {
 
 .btn:hover {
     background: none;
-    
+   
 }
 
 .btn-home {
@@ -111,10 +76,7 @@ p {
     align-items: center;
 }
 
-.sau {
-    padding: 30px;
-    background: #FF0000 
-}//fondo del ivan
+
 
 .box-container {
     display: flex;
@@ -125,18 +87,18 @@ p {
 }
 
 .box-container .box {
-    height: 11rem;
-    width: 17rem;
+    height: 27rem;
+    width: 24rem;
     background: #101010;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
-    margin: 2rem;   
+    margin: 2rem;  
 }
 
 .box-container .box i {
     height: 3rem;
-    width: 3rem;
+    width: 5rem;
     line-height: 3rem;
     text-align: center;
     border-radius: 50%;
@@ -154,46 +116,24 @@ p {
 }
 
 .box-container .box p {
-    padding: 0 15px;
+    padding: 0 35px;
+  color: #fff;
     font-size: 16px;
 }
-
-.about {
-    background: #171717;
+.botones a {
+    display: block;
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
 }
 
-.price {
-    background: url(img/costos.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
+.botones a:hover {
+    background: #3f3f3f;
 }
 
-
-.contact {
-    padding-top: 20px;
-    background: #171717;
-    padding-bottom: 0;
-}
-
-
-@media (max-width: 768px) {
-
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
-    }
-
-    .sau {
-        height: 100vh;
-    }
-
-    .navbar {
-        display: none;
-    }
-   
-
-.select {
+.conte {
   font-size: 18px;
   line-height: 40px;
   width: 117px;
@@ -202,12 +142,7 @@ p {
   margin: 10;
   border-radius: 4px;
   margin-top: 10px;
-  font-family: 'fantasy';
+  font-family: 'Roboto', sans-serif;
   outline: 0;
   color: white;
   border: 0px solid crimson;
-  padding: 15px;
-  box-shadow: 5px 5px 5px #000;
-  text-decoration: underline;
-  text-align: center;
-}
