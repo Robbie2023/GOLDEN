@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background: url('https://static.vecteezy.com/system/resources/previews/001/009/645/non_2x/banner-with-angled-red-overlaid-strips-vector.jpg');
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background: #F5F5F5;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://www.tresovejas.com.ar/im/tres-ovejas-menu.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.botones {
+  display: flex;
+  margin-right: 10px;
+}
+
+.botones a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.botones a:hover {
+    background: #3f3f3f;
+}
+
+.conte {
+  font-size: 18px;
+  line-height: 40px;
+  width: 117px;
+  background: #000000;
+  padding: 15px;
+  margin: 10;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  outline: 0;
+  color: white;
+  border: 0px solid crimson;
