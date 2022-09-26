@@ -10,6 +10,8 @@ body {
   color: black;
   font-family:'Roboto', sans-serif;
   background: #F5F5F5;
+    text-align: justify;
+
 }
 
 header {
@@ -18,6 +20,10 @@ header {
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.text {
+      margin: 200px;
+
 }
 
 section si {
@@ -116,7 +122,9 @@ font-family: 'Roboto', sans-serif;  outline: 0;
   margin-bottom: 25px;
   font-size: 20px;
 }
-
+.box {
+  text-align: justify;
+}
 .pie-pagina .grupo-1 .box p{
   color: #efefef;
   margin-bottom: 10px;
