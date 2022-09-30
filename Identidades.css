@@ -15,47 +15,116 @@
     position: fixed;
     width: 100%;
     z-index: 100;
-
 }
-
 
 body {
   color: black;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   background: #F5F5F5;
-  text-align: justify;
-
 }
 
 .logo {
     margin-left: 30px;
- 
 }
 
 header {
-  color: white;
-  background: url('https://static.vecteezy.com/system/resources/previews/001/009/645/non_2x/banner-with-angled-red-overlaid-strips-vector.jpg');
-  height: 500px;
+  height: 90px;
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background: url('https://www.tresovejas.com.ar/im/tres-ovejas-menu.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+  justify-content: space-between;
 }
-.text {
-      margin: 200px;
 
-}
-.text2 {
-      margin: 200px;
-
-}
 .botones {
   display: flex;
   margin-right: 10px;
 }
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #FF0000;//fondo del ivan
+}
 
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 27rem;
+    width: 24rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 5rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 35px;
+  color: #fff;
+    font-size: 16px;
+}
 .botones a {
     display: block;
-    padding: 20px 20px;
+    padding: 20px 40px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -65,6 +134,7 @@ header {
 .botones a:hover {
     background: #3f3f3f;
 }
+
 .conte {
   font-size: 18px;
   line-height: 40px;
@@ -78,51 +148,7 @@ header {
   outline: 0;
   color: white;
   border: 0px solid crimson;
-
-section si {
-  min-width: 1000px;
-  margin: auto;
-  padding: 30px 0;
 }
-
-section h1 {
-  font-size: 44px;
-}
-
-.inicio {
-  width: 40px;
-  background: #000000;
-  padding: 20px;
-  margin: 10;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  box-shadow: 5px 5px 5px #000;
-  text-align: center;
-    text-decoration: none;
-
-}
-
-.select {
-  font-size: 18px;
-  line-height: 40px;
-  width: 117px;
-  background: #000000;
-  padding: 15px;
-  margin: 10;
-  border-radius: 4px;
-  margin-top: 10px;
-font-family: 'Roboto', sans-serif;  outline: 0;
-  color: white;
-  border: 0px solid crimson;
-  padding: 15px;
-  box-shadow: 5px 5px 5px #000;
-  text-decoration: underline;
-  text-align: center;
-}
-  }
-
 
 .pie-pagina {
   width: 100%;
@@ -157,10 +183,11 @@ font-family: 'Roboto', sans-serif;  outline: 0;
   margin-bottom: 25px;
   font-size: 20px;
 }
- 
+
 .box {
   text-align: justify;
 }
+
 .pie-pagina .grupo-1 .box p{
   color: #efefef;
   margin-bottom: 10px;
@@ -182,6 +209,7 @@ font-family: 'Roboto', sans-serif;  outline: 0;
 .pie-pagina .grupo-1 .red-social a:hover {
   color: #7fffd4;
 }
+
 .terrible {
   width: 48%;
   margin: inherit;
@@ -220,6 +248,5 @@ font-family: 'Roboto', sans-serif;  outline: 0;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
-
   }
 }
