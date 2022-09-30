@@ -147,6 +147,27 @@ font-family: 'Roboto', sans-serif;  outline: 0;
   color: #7fffd4;
 }
 
+.terrible {
+  width: 48%;
+  margin: inherit;
+  display: grid;
+  text-align: center;
+}
+
+.terrible a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.terrible a:hover {
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+}
+
 .pie-pagina .grupo-2 {
   background-color: #0a1a2a;
   padding: 15px 10px;
