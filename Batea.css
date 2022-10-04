@@ -20,7 +20,7 @@
 body {
   color: black;
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   background: #F5F5F5;
 }
 
@@ -191,6 +191,7 @@ header {
 .pie-pagina .grupo-1 .box p{
   color: #efefef;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .pie-pagina .grupo-1 .red-social a {
